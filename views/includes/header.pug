@@ -1,0 +1,34 @@
+#wb-bnr.container
+  section#wb-lng.text-right
+    h2.wb-inv Language selection
+    ul.list-inline.margin-bottom-none
+      li
+        a(href='index-fr.html', lang='fr') Français
+  .row
+    .brand.col-xs-5.col-md-4
+      a(href='https://www.canada.ca/en.html')
+        img(src='/GCWeb/assets/sig-blk-en.svg', alt='')
+        span.wb-inv
+          | Government of Canada / 
+          span(lang='fr') Gouvernement du Canada
+    section#wb-srch.col-lg-8.text-right
+      h2 Search
+      form.form-inline(action='#', method='post', name='cse-search-box', role='search')
+        .form-group
+          label.wb-inv(for='wb-srch-q') Search Canada.ca
+          input#wb-srch-q.wb-srch-q.form-control(list='wb-srch-q-ac', name='q', type='search', value='', size='34', maxlength='170', placeholder='Search Canada.ca')
+          datalist#wb-srch-q-ac
+        .form-group.submit
+          button#wb-srch-sub.btn.btn-primary.btn-small(type='submit', name='wb-srch-sub')
+            span.glyphicon-search.glyphicon
+            span.wb-inv Search
+nav.gcweb-menu(typeof='SiteNavigationElement')
+  .container
+    h2.wb-inv Menu
+    button(type='button', aria-haspopup='true', aria-expanded='false')
+      span.wb-inv Main 
+      | Menu 
+      span.expicon.glyphicon.glyphicon-chevron-down
+    ul(role='menu', aria-orientation='vertical', data-ajax-replace='/ajax/sitemenu-v2-en.html')
+      li(role='presentation')
+        a(role='menuitem', href='/admin') Edit content
