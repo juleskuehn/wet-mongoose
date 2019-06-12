@@ -8,7 +8,7 @@ Based on:
 ## Setup
 
 - Install node.js, npm, and MongoDB
-- Clone this repository: `git clone https://github.com/juleskuehn/a11y-req`
+- Clone this repository: `git clone https://github.com/juleskuehn/wet-mongoose`
 - In the created directory, run `npm install`
 
 ## Usage
