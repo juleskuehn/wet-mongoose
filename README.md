@@ -8,11 +8,11 @@ Based on:
 ## Setup
 
 - Install node.js, npm, and MongoDB
-- Clone this repository: git clone https://github.com/juleskuehn/a11y-req
-- In the created directory, run npm install
+- Clone this repository: `git clone https://github.com/juleskuehn/a11y-req`
+- In the created directory, run `npm install`
 
 ## Usage
 
-- Run mongod to start the database server
-- Run npm run devstart to start the node.js server
+- Run `mongod` to start the database server
+- Run `npm run devstart` to start the node.js server
 - Visit localhost:3000
